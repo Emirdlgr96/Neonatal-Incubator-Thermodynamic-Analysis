@@ -22,11 +22,43 @@ The total heat dissipation is analyzed through three primary physical mechanisms
 * **Evaporation ($Q_{evap}$):** Driven by the vapor pressure gradient between the infant's skin and the surrounding air, where ambient humidity acts as the primary regulating factor.
 
 # Key Findings & Results
-1. The Critical Role of Humidity: Increasing relative humidity from 40% to 80% yields an approximately 30% reduction in total heat loss.
 
-2. Double-Wall Efficiency: Geometric design analyses revealed that double-wall structures reduce radiative heat loss by 25% compared to single-wall systems.
+### 1. The Critical Role of Humidity
+Increasing relative humidity from 40% to 80% yields an approximately **30% reduction** in total heat loss.
 
-3. Thermal Stability: Proposed a closed-loop PID control architecture to maintain thermal stability against external disturbances, such as the opening of access ports.
+<p align="center">
+  <img src="figures/figure1.png" width="600">
+  <br>
+  <em>Figure 1: Effect of Relative Humidity on Evaporative Heat Loss</em>
+</p>
+
+### 2. Double-Wall Efficiency
+Geometric design analyses revealed that double-wall structures reduce radiative heat loss by **25%** compared to single-wall systems.
+
+<p align="center">
+  <img src="figures/figure2.png" width="600">
+  <br>
+  <em>Figure 2: Radiative Heat Loss Comparison</em>
+</p>
+
+### 3. Thermal Stability & Sensitivity Analysis
+Proposed a closed-loop PID control architecture to maintain thermal stability against external disturbances.
+
+<p align="center">
+  <img src="figures/figure3.png" width="600">
+  <br>
+  <em>Figure 3: PID Control Architecture Block Diagram</em>
+</p>
+
+The sensitivity of total heat loss to various incubator parameters is summarized in the table below:
+
+<p align="center">
+  <img src="figures/table1.png" width="550">
+  <br>
+  <em>Table 1: Sensitivity Analysis of Heat Loss Parameters</em>
+</p>
+
+
 
 ## Conclusion
 Based on our thermodynamic analysis, an ideal neonatal incubator cannot rely solely on air temperature regulation. An optimized system must integrate the following three fundamental components: 

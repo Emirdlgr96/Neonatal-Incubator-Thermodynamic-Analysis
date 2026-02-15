@@ -1,4 +1,5 @@
 # Neonatal-Incubator-Thermodynamic-Analysis
+> ⚠️ **Note:** This is a student project developed for the BME3921 Biothermodynamics course. It is currently under development and may contain academic approximations or technical errors.
 Thermodynamic modeling and PID control analysis of a neonatal incubator to optimize infant thermal balance.
 
 # Project Overview
